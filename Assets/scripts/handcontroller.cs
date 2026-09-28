@@ -7,6 +7,7 @@ public class handcontroller : MonoBehaviour
     public InputActionReference triggerBtn;
     public InputActionReference gripBtn;
     public Animator handAnimator;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,5 +24,6 @@ public class handcontroller : MonoBehaviour
 
         handAnimator.SetFloat("trigger", triggerValue);
         handAnimator.SetFloat("grip", gripValue);
+        
     }
 }
