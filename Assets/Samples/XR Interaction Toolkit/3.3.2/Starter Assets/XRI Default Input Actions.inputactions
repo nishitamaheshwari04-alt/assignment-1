@@ -3582,6 +3582,35 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "shooting action map",
+            "id": "c44f1c51-863b-41ab-815c-a7d67f51c729",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "27f67aca-52d1-4ccb-b46f-67e7a7560179",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "58d5f2fe-1bfd-468b-a70d-ecf6cce8579f",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
