@@ -19,7 +19,7 @@ public class Instantiate : MonoBehaviour
     }
     void InstantiateObject(InputAction.CallbackContext context)
     {
-        Instantiate(spawnobject, new Vector3(0f, 0f, 0f), Quaternion.identity);
+        Instantiate(spawnobject, transform.position, Quaternion.identity);
     }
 
 }
