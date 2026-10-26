@@ -65,7 +65,7 @@ public class EnemyFollow : MonoBehaviour
         // Update Idle/Walk animations
         float animationSpeed = Mathf.Clamp01(
             agent.velocity.magnitude / Mathf.Max(movementSpeed, 0.01f)
-        ) * 0.5f;
+        ) ;
 
         animator.SetFloat(
             "speed",
