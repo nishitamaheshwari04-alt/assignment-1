@@ -17,6 +17,8 @@ public class EnemyFollow : MonoBehaviour
     private NavMeshAgent agent;
     private Animator animator;
 
+    private bool closeDistance = true;
+
     private bool isChasing = false;
 
     void Start()
@@ -60,6 +62,12 @@ public class EnemyFollow : MonoBehaviour
         if (isChasing)
         {
             agent.SetDestination(xrPlayer.position);
+        }
+
+        if(agent.stoppingDistance >= distance)
+        {
+            closeDistance = true;
+            animator.SetBool("Neck", true);
         }
 
         // Update Idle/Walk animations
