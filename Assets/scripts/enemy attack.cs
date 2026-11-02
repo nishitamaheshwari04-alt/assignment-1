@@ -17,9 +17,9 @@ public class enemyattack : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision Collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if(Collision.gameObject.CompareTag("Enemy"))
+        if(other.gameObject.CompareTag("Enemy"))
         {
             playerHealth -= 50f;
             if (playerHealth > 0)
