@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/XR Interaction Toolkit/3.3.2/Starter Assets/Scenes/SampleScene.unity
+    path: Assets/XRI/Samples/XR Interaction Toolkit/3.3.2/Starter Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Samples/XR Interaction Toolkit/3.3.2/Starter Assets/Scenes/test
+    path: Assets/XRI/Samples/XR Interaction Toolkit/3.3.2/Starter Assets/Scenes/test
       scene.unity
     guid: 4a16beabe65f94baea29275462ef321c
   m_configObjects:
